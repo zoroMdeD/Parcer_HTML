@@ -14,31 +14,36 @@ namespace Parcer_HTML
     {
         static void Main(string[] args)
         {
-            IWebDriver driver = new ChromeDriver();
+            string str = "STM32F103C8T6";
+
+            ChromeOptions options = new ChromeOptions();
+            options.AddArguments("--headless");     //Делаем окно браузера невидимым
+
+            IWebDriver driver = new ChromeDriver(options);     //Передаем флаг в браузер
             driver.Url = @"http://digikey.com";
             Delay();
 
-            driver.FindElement(By.XPath(@".//div[@class='searchbox-inner-searchtext']/input[@name='keywords']")).SendKeys("STM32F103C8T6");  //AD5516ABCZ-1     STM32F103C8T6
+            driver.FindElement(By.XPath(@".//div[@class='searchbox-inner-searchtext']/input[@name='keywords']")).SendKeys(str);  //AD5516ABCZ-1     STM32F103C8T6
             driver.FindElement(By.XPath(@".//div[@class='searchbox-inner-searchbutton']/button[@class='search-button']")).Click();
             Delay();
 
             try
             {
-                driver.FindElement(By.XPath(@".//img[@title='STM32F103C8T6']")).Click();
+                driver.FindElement(By.XPath($@".//img[@title='{str}']")).Click();
                 Delay();
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("miss");
             }
 
-            var links = driver.FindElements(By.XPath(@".//li[@class='MuiBreadcrumbs-li']/a"));   //@".//table[@id='product-attributes']/tbody/tr[@class='MuiTableRow-root']"
+            var links = driver.FindElements(By.XPath(@".//table[@id='product-attributes']/tbody/tr[1]"));   //@".//table[@id='product-attributes']/tbody/tr[@class='MuiTableRow-root']"        @".//li[@class='MuiBreadcrumbs-li']/a"
             foreach (IWebElement link in links)
             {
                 Console.WriteLine(link.Text);
             }
         }
-        static void Delay(int mils = 3000)
+        static void Delay(int mils = 1000)
         {
             Thread.Sleep(mils);
         }

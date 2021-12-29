@@ -2,7 +2,12 @@ D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\bin\Debug\Parcer_HTML
 D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\bin\Debug\Parcer_HTML.exe
 D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\bin\Debug\Parcer_HTML.pdb
 D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\bin\Debug\WebDriver.dll
-D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\bin\Debug\WebDriver.xml
-D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\obj\Debug\Parcer_HTML.csprojResolveAssemblyReference.cache
 D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\obj\Debug\Parcer_HTML.exe
 D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\obj\Debug\Parcer_HTML.pdb
+D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\bin\Debug\LinqToExcel.dll
+D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\bin\Debug\Remotion.Data.Linq.dll
+D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\bin\Debug\Remotion.dll
+D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\bin\Debug\Remotion.Interfaces.dll
+D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\bin\Debug\LinqToExcel.xml
+D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\obj\Debug\Parcer_HTML.csproj.AssemblyReference.cache
+D:\STUDIES\C#_exercise\Parcer_HTML\Parcer_HTML\Parcer_HTML\obj\Debug\Parcer_HTML.csproj.CoreCompileInputs.cache
